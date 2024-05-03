@@ -32,6 +32,18 @@
   align-items: start;
 }
 
+.input-update-quantity {
+  width: 25px;
+}
+
+.input-update-quantity, .save-updated-quantity, .is-editing-quantity .quantity-label {
+  display: none;
+}
+
+.is-editing-quantity .input-update-quantity, .is-editing-quantity .save-updated-quantity, .quantity-label {
+  display: initial;
+}
+
 @media (max-width: 1000px) {
   .main {
     max-width: 500px;
