@@ -36,7 +36,7 @@
   width: 25px;
 }
 
-.input-update-quantity, .save-updated-quantity, .is-editing-quantity .quantity-label {
+.input-update-quantity, .save-updated-quantity, .is-editing-quantity .quantity-label, .is-editing-quantity .update-quantity-link {
   display: none;
 }
 
